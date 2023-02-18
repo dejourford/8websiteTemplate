@@ -12,6 +12,10 @@ li {
     list-style: none;
 }
 
+.feature-li {
+    list-style-type: square;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -35,6 +39,7 @@ a {
 .nav-branding {
     font-size: 2rem;
     color: black;
+    text-decoration: none;
 }
 
 .nav-link {

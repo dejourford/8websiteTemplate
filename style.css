@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+.spacer {
+    height: 100px;
+}
+
 /* STYLING THE HAMBURGER MENU */
 header {
-    background: white;
+    background: orange;
+    border-radius: 50px 0px;
+
 }
 
 li {
@@ -46,7 +52,8 @@ a {
 
 .nav-link {
     transition: 0.7s ease;
-    color: white;
+    color: black;
+    font-size: 1.5rem;
 }
 
 .nav-link:hover {
@@ -95,10 +102,11 @@ a {
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background: black;
+        background: orange;
         width: 100%;
         text-align: center;
         transition: 0.3s;
+        border-radius: 0px 30px;
     }
 
     .nav-item {
@@ -111,12 +119,78 @@ a {
     }
 
     a {
-        color: white;
+        color: black;
     }
 
-    #hire-me-btn {
+    #call-to-action-btn {
         display: none;
     }
 }
 
 /* STYLING THE HERO SECTION  */
+.hero {
+    padding: 30px;
+    font-size: 1.5rem;
+    text-align: justify;
+    word-spacing: -2px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero-left, .hero-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-img {
+    max-width: 60%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+/* ORANGE BACKGROUND FOR HERO IMAGE */
+.hero-right::after {
+    content: "";
+    width: 330px;
+    height: 470px;
+    background: orange;
+    z-index: -1;
+    position: absolute;
+    left: 110px;
+    top: 120px;
+    box-shadow: 0px 0px 3px 0px gray;
+    
+
+
+}
+
+
+.call-to-action {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.call-to-action-btn {
+    background: orange;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.call-to-action-img {
+    width: 15%;
+    transform: rotate(290deg);
+    
+}

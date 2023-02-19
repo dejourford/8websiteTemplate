@@ -8,6 +8,12 @@
     height: 100px;
 }
 
+.main-spacer {
+    height: 100px;
+
+
+}
+
 /* STYLING THE HAMBURGER MENU */
 header {
     background: orange;
@@ -189,6 +195,7 @@ h1 {
     border-radius: 10px;
     font-weight: 800;
     text-transform: uppercase;
+    box-shadow: 0px 0px 5px 0px black;
 }
 
 .call-to-action-img {
@@ -200,11 +207,11 @@ h1 {
 /* HOOK SECTION CSS */
 .hook {
     text-align: center;
+    padding: 15px;
 
 }
 
 h2 {
-    background: orange;
     padding: 30px 0px;
 }
 
@@ -232,9 +239,40 @@ h2 {
     flex-direction: column;
     gap: 30px;
     font-size: 1.1rem;
-    padding: 0px 15px;
+    padding: 15px 15px;
+    background: orange;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+/* MAIN SECTION */
+main {
+    padding: 15px;
+}
+
+.main-li {
+    list-style-type:square;
 }
 
 main img {
-    width: 50%;
+    width: 70%;
+    box-shadow: 0px 0px 5px 0px black;
 }
+
+.right-side-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-first, .main-second  {
+    font-size: 1.1rem;
+    text-align: justify;
+    word-break: break-all;
+}
+
+.main-header {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* REVIEW SECTION */

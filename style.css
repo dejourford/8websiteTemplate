@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
 
 .spacer {
@@ -198,6 +199,10 @@ h1 {
     box-shadow: 0px 0px 5px 0px black;
 }
 
+.call-to-action-btn:hover {
+    outline: 5px solid black;
+}
+
 .call-to-action-img {
     width: 20%;
     transform: rotate(290deg);
@@ -247,6 +252,7 @@ h2 {
 /* MAIN SECTION */
 main {
     padding: 15px;
+    
 }
 
 .main-li {
@@ -268,6 +274,8 @@ main img {
     font-size: 1.1rem;
     text-align: justify;
     word-break: break-all;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .main-header {
@@ -276,3 +284,184 @@ main img {
 }
 
 /* REVIEW SECTION */
+.review {
+    text-align: center;
+    word-break: -2px;
+}
+
+.review-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    gap: 10px;
+}
+
+.review img {
+    width: 20%;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.card {
+    border: none;
+    text-align: justify;
+    padding: 15px;
+    background: orange;
+}
+
+.review-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+/* CALL TO ACTION SECTION */
+.call-to-action-again {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: none;
+}
+
+#call-to-action-btn-again:hover {
+    outline: 5px solid black;
+}
+
+/* FAQ SECTION */
+.accordion-body {
+    background: orange;
+}
+
+.accordion-button, .accordion-button:not(.collapsed) {
+    color: orange;
+}
+
+/* CONTACT FORM SECTION */
+
+#contact {
+    background: black;
+}
+
+.contactHeader {
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.formWrapper {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+    gap: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input:focus {
+    border: 5px solid crimson;
+}
+
+textarea:focus {
+    border: 5px solid crimson;
+}
+
+.nameField, .emailField {
+    width: 250px;
+    padding: 10px;
+}
+
+.messageBox {
+    height: 200px;
+    width: 250px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.messageBox::placeholder {
+    text-align: top;
+}
+
+.submitBtn {
+    width: 100px;
+    height: 50px;
+    align-self: center;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.submitBtn:hover {
+    background: orange;
+    border: 5px solid black;
+}
+
+
+
+svg {
+    font-size: 50px;
+    color: white;
+}
+
+svg:hover {
+    color: crimson;
+}
+
+.formWrapper {
+    transform: translateY(20px);
+    text-transform: uppercase;
+}
+
+.contactHeader {
+    color: crimson;
+    text-decoration: 5px solid white overline;
+}
+
+
+
+
+/* FOOTER SECTION */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+footer img {
+    width: 15%;
+}
+
+.link-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-section-header {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: orange;
+}
+
+.social-media-links {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    padding: 20px;
+}

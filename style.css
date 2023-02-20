@@ -372,11 +372,11 @@ form {
 }
 
 input:focus {
-    border: 5px solid crimson;
+    border: 5px solid orange;
 }
 
 textarea:focus {
-    border: 5px solid crimson;
+    border: 5px solid orange;
 }
 
 .nameField, .emailField {
@@ -453,6 +453,12 @@ footer img {
     flex-direction: column;
 }
 
+.link-group a:hover {
+    color: orange;
+    transition: 0.5s ease-in;
+}
+
+
 .link-section-header {
     font-size: 1.5rem;
     font-weight: 800;
@@ -464,4 +470,8 @@ footer img {
     gap: 10px;
     justify-content: space-evenly;
     padding: 20px;
+}
+
+#socials img:hover {
+    cursor: pointer;
 }

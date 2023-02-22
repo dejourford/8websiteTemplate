@@ -200,6 +200,7 @@ main img {
     justify-content: center;
 }
 
+
 .main-first, .main-second  {
     font-size: 1.1rem;
     text-align: justify;
@@ -473,5 +474,48 @@ footer img {
     padding: 30px;
     align-items: center;
    }
+
+   .hook-features {
+    display: flex;
+    flex-direction: row;
+    max-height: fit-content;
+    text-align: center;
+    
+   }
+
+   main {
+    min-width: fit-content;
+   }
+
+   .main-first {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px 30px;
+    
+   }
+
+   .main-second {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 30px;
+   }
+
+   .review-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+   }
+
+   .card {
+    text-align: center;
+    width: 250px;
+    background: red;
+    padding: 20px;
+    
 }
+
+/* NEED TO FIGURE OUT HOW
+SHRINK CARDS W/ CONTENT INSIDE */
+
 
